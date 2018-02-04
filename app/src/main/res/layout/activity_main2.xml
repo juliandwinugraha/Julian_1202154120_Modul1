@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nugraha.julian.julian_1202154120_modul1.Main2Activity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Makan Malam"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/Ztempatmakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:layout_marginTop="13sp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <TextView
+        android:id="@+id/saddasd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Porsi"
+        android:textSize="15sp"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+                tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <TextView
+        android:id="@+id/Zporsimakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <TextView
+        android:id="@+id/asdsd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <TextView
+        android:id="@+id/Zmenumakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/normalSize"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga"
+        android:layout_marginTop="36dp"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <TextView
+        android:id="@+id/Zhargamakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:layout_marginTop="22dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="308dp" />
+</LinearLayout>

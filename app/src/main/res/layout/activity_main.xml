@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nugraha.julian.julian_1202154120_modul1.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:lineSpacingExtra="8sp"
+        android:text="Makan Malam"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="43dp"
+        android:text="dengan Milea"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/Zmenumakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Zporsimakan"
+        android:layout_alignEnd="@+id/abnormal"
+        android:layout_marginBottom="35dp"
+        android:ems="20"
+        android:hint="Nama Menu"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Zporsimakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:ems="20"
+        android:hint="Jumlah Porsi"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/eatbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/Zporsimakan"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:onClick="eatbus"
+        android:text="EATBUS"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/abnormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/eatbus"
+        android:layout_alignBottom="@+id/eatbus"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:onClick="ABNORMAL"
+        android:text="ABNORMAL" />
+</RelativeLayout>
